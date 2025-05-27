@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
-struct Stub_AppApp: App {
+struct StubApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LauncherView() // теперь это стартовое окно
         }
     }
 }

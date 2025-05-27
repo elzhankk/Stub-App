@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1AE7A9872DE60FAF00ED0D34 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1AE7A9862DE60FAF00ED0D34 /* FirebaseAnalytics */; };
+		1AE7A9892DE60FAF00ED0D34 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 1AE7A9882DE60FAF00ED0D34 /* FirebaseRemoteConfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1AE7A9692DE6065D00ED0D34 /* Stub App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stub App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE7A9872DE60FAF00ED0D34 /* FirebaseAnalytics in Frameworks */,
+				1AE7A9892DE60FAF00ED0D34 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = "Stub App";
 			packageProductDependencies = (
+				1AE7A9862DE60FAF00ED0D34 /* FirebaseAnalytics */,
+				1AE7A9882DE60FAF00ED0D34 /* FirebaseRemoteConfig */,
 			);
 			productName = "Stub App";
 			productReference = 1AE7A9692DE6065D00ED0D34 /* Stub App.app */;
@@ -94,6 +103,9 @@
 			);
 			mainGroup = 1AE7A9602DE6065D00ED0D34;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1AE7A9852DE60FAF00ED0D34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1AE7A96A2DE6065D00ED0D34 /* Products */;
 			projectDirPath = "";
@@ -324,6 +336,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AE7A9852DE60FAF00ED0D34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AE7A9862DE60FAF00ED0D34 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AE7A9852DE60FAF00ED0D34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1AE7A9882DE60FAF00ED0D34 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AE7A9852DE60FAF00ED0D34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AE7A9612DE6065D00ED0D34 /* Project object */;
 }
