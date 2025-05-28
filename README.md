@@ -15,9 +15,12 @@ Condition	What the app displays
 💾 Link Persistence
 When redirectLink is first fetched, the app saves it to UserDefaults. If the network is unavailable later, the app can still load the saved link and show the WebView
 
+Characters View
+![Simulator Screenshot1](https://github.com/user-attachments/assets/e273d1a6-857b-4144-a52b-b1c7231968e5)
 
-![simulator_screenshot_1640B11D-305D-4323-B056-373FA7869AB0](https://github.com/user-attachments/assets/ff825b04-7634-437f-aa63-2367ae91f8f7)
+
+Detail View
+![Simulator Screenshot2](https://github.com/user-attachments/assets/27b60275-3b5e-4ea5-8900-4e399cc48222)
 
 
-![simulator_screenshot_7455AAFE-6BFB-4127-9366-24A8C66A06D2](https://github.com/user-attachments/assets/dbcfec61-d352-4b38-a288-0c36eac38cc1)
 
